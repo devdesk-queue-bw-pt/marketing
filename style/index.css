@@ -1,0 +1,183 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Anton", sans-serif;
+  text-decoration: none;
+  background-color: #242323;
+}
+#homePage {
+  color: white;
+}
+#homePage:hover {
+  color: rgb(236, 105, 123);
+}
+nav {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+a:hover {
+  color: rgb(236, 105, 123);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 2%;
+  font-size: 2rem;
+}
+/* #bannerContainer {
+  /* display: flex; */
+/* justify-self: center; */
+/* height: 100% auto; */
+/* } */
+#bannerImg {
+  background-image: url(https://www.english.com/blog/wp-content/uploads/2019/05/GSE-teacher-toolkit.jpg);
+  height: 80rem;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 -150px;
+}
+#aboutBanner {
+  background-image: url(https://www.english.com/blog/wp-content/uploads/2019/05/GSE-teacher-toolkit.jpg);
+  height: 625px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 -150px;
+}
+a {
+  color: white;
+}
+#getStartedButton button {
+  position: absolute;
+  top: 30%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #242323;
+  color: white;
+  font-size: 25px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+#getStartedButton button:hover {
+  background-color: rgb(247, 68, 92);
+}
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+  /* padding: 1%; */
+  justify-content: center;
+  color: white;
+  font-size: 200%;
+  text-align: center;
+}
+#cards > div {
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+#cards > div > img {
+  max-width: 80% auto;
+  /* max-height: auto; */
+}
+@media screen and (max-width: 1000px) {
+  /* header {
+    text-align: center; */
+  /* } */
+  #homePage {
+    float: none;
+    max-width: 100%;
+  }
+  nav {
+    float: none;
+    max-width: 50%;
+  }
+}
