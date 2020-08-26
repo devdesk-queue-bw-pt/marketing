@@ -168,16 +168,35 @@ a {
   max-width: 80% auto;
   /* max-height: auto; */
 }
+footer {
+  display: flex;
+  font-size: 2rem;
+  color: white;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+footer > div {
+  /* justify-content: flex-end; */
+}
 @media screen and (max-width: 1000px) {
-  /* header {
-    text-align: center; */
-  /* } */
+  header {
+    display: flex;
+  }
   #homePage {
     float: none;
     max-width: 100%;
   }
   nav {
-    float: none;
-    max-width: 50%;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1rem;
   }
 }
